@@ -38,7 +38,7 @@ def show_all(request):
         "quote3": "'A smooth sea never made a skilled sailor.'",
         "img1": "FDR-pics/FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
         "img2": "FDR-pics/fdr-portrait_square.avif",
-        "img3": "fdr3.avif",
+        "img3": "FDR-pics/fdr3.avif",
     }
     return render(request, template_name, context)
 
