@@ -1,0 +1,9 @@
+{% extends 'quotes/base.html' %}
+{% load static %}
+
+    {% block content %}
+    <h2> FDR Quote of the Day: </h2> <br>
+    <p> <bold> {{quote}} </bold> </p>
+    <img src="{% static picture %}" alt="FDR picture" width="300" height="300">
+       {% endblock %}
+  

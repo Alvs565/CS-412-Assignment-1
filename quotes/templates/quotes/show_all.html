@@ -1,0 +1,15 @@
+{% extends 'quotes/base.html' %}
+{% load static %}
+
+    {% block content %}
+    <h1> All Quotes and Images Used:</h1> <br> <br>
+    <h2> Quotes: </h2>
+    <li> {{quote1}} </li>
+    <li> {{quote2}} </li>
+    <li> {{quote3}} </li> <br> <br>
+
+    <h2> Images: </h2> <br>
+    <img src="{% static img1 %}" alt="FDR picture" width="300" height="300">
+    <img src="{% static img2 %}" alt="FDR picture" width="300" height="300">
+    <img src="{% static img3 %}" alt="FDR picture" width="300" height="300">
+    {% endblock %}
